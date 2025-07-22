@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperSub - Affordable Modular Homes in NZ</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .primary-blue { color: #001648; }
+        .secondary-blue { color: #4781F5; }
+        .bg-primary-blue { background-color: #001648; }
+        .bg-secondary-blue { background-color: #4781F5; }
+        .border-primary-blue { border-color: #001648; }
+        .border-secondary-blue { border-color: #4781F5; }
+        .gradient-bg {
+            background: linear-gradient(135deg, #001648 0%, #4781F5 100%);
+        }
+        .step-number {
+            background: linear-gradient(45deg, #4781F5, #001648);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .shadow-custom {
+            box-shadow: 0 10px 30px rgba(0, 22, 72, 0.1);
+        }
+        @media print {
+            body { print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header/Hero Section -->
+    <section class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <div class="mb-8">
+                    <img src="https://i.imgur.com/supersub-logo.png" alt="SuperSub Logo" class="mx-auto h-16 mb-4">
+                    <h1 class="text-5xl font-bold mb-4">Smarter Building with SuperSub</h1>
+                    <h2 class="text-2xl font-light mb-6">Your Guide to Affordable Modular Homes in NZ</h2>
+                    <p class="text-xl opacity-90 max-w-4xl mx-auto leading-relaxed">
+                        Discover how SuperSub delivers custom 4-bedroom modular homes in as little as 26 days, 
+                        from just $1,997/m², using high-performance SIP panels and a state-of-the-art 10,000 m² warehouse in Cambridge, NZ.
+                    </p>
+                </div>
+                <div class="flex justify-center space-x-4 mb-8">
+                    <a href="tel:0800782631" class="bg-white text-blue-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+                        <i class="fas fa-phone mr-2"></i>0800 782 631
+                    </a>
+                    <a href="mailto:office@supersub.co.nz" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-800 transition">
+                        <i class="fas fa-envelope mr-2"></i>Get Quote
+                    </a>
+                </div>
+                <p class="text-lg">www.supersub.co.nz</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Images -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="rounded-lg overflow-hidden shadow-custom">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAH0AfQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA" class="w-full h-80 object-cover" alt="Modern Kitchen Interior">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-custom">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAH0AfQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA" class="w-full h-80 object-cover" alt="Modern Living Room">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Building Process Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold primary-blue mb-4">Our Building Process: From Factory to Foundation</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    At SuperSub, we've redefined how homes are built. Here's how we deliver faster, more precise homes with less waste and lower cost.
+                </p>
+            </div>
+
+            <div class="space-y-12">
+                <!-- Step 1 -->
+                <div class="flex flex-col lg:flex-row items-center gap-8">
+                    <div class="lg:w-1/2">
+                        <div class="flex items-center mb-4">
+                            <span class="text-6xl font-bold step-number mr-4">01</span>
+                            <h3 class="text-2xl font-bold primary-blue">Custom Design & Council Prep</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>Work with our team to create a floor plan that fits your lifestyle — from 1 to 5 bedrooms</li>
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>Choose finishes, claddings, layouts and special features like decks, skylights, or extra storage</li>
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>We guide you through the NZ Building Code and council consent process, helping with all required documentation</li>
+                        </ul>
+                    </div>
+                    <div class="lg:w-1/2">
+                        <div class="rounded-lg overflow-hidden shadow-custom">
+                            <img src="data:image/jpeg;base64,construction-process" class="w-full h-64 object-cover" alt="Design Process">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="flex flex-col lg:flex-row-reverse items-center gap-8">
+                    <div class="lg:w-1/2">
+                        <div class="flex items-center mb-4">
+                            <span class="text-6xl font-bold step-number mr-4">02</span>
+                            <h3 class="text-2xl font-bold primary-blue">Factory Build Begins</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>Construction starts in our 10,000m² warehouse in Cambridge</li>
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>The floor system is framed and insulated off the ground — safe from weather, pests, and damage</li>
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>SIP panels are cut to exact size in our precision-cutting bay</li>
+                        </ul>
+                    </div>
+                    <div class="lg:w-1/2">
+                        <div class="rounded-lg overflow-hidden shadow-custom">
+                            <img src="data:image/jpeg;base64,warehouse-facility" class="w-full h-64 object-cover" alt="Factory Build">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="flex flex-col lg:flex-row items-center gap-8">
+                    <div class="lg:w-1/2">
+                        <div class="flex items-center mb-4">
+                            <span class="text-6xl font-bold step-number mr-4">03</span>
+                            <h3 class="text-2xl font-bold primary-blue">SIP Panel Assembly</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>Wall and roof panels go up fast. These structural insulated panels (SIPs) come pre-insulated and pre-cut</li>
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>SIPs act as both framing and insulation — no extra layers needed</li>
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>Once assembled, your home is airtight, energy-efficient, and ready for interior works</li>
+                        </ul>
+                    </div>
+                    <div class="lg:w-1/2">
+                        <div class="rounded-lg overflow-hidden shadow-custom">
+                            <img src="data:image/jpeg;base64,sip-panels" class="w-full h-64 object-cover" alt="SIP Panel Assembly">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="flex flex-col lg:flex-row-reverse items-center gap-8">
+                    <div class="lg:w-1/2">
+                        <div class="flex items-center mb-4">
+                            <span class="text-6xl font-bold step-number mr-4">04</span>
+                            <h3 class="text-2xl font-bold primary-blue">Internal Services & Finishing</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>Plumbing, wiring, heating/cooling systems are installed while the unit remains sealed and protected</li>
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>Bathrooms and kitchen fit-outs are completed (including cabinetry, benchtops, fixtures)</li>
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>Walls lined, painted, and flooring installed — all indoors, unaffected by weather</li>
+                        </ul>
+                    </div>
+                    <div class="lg:w-1/2">
+                        <div class="rounded-lg overflow-hidden shadow-custom">
+                            <img src="data:image/jpeg;base64,interior-finishing" class="w-full h-64 object-cover" alt="Interior Finishing">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="flex flex-col lg:flex-row items-center gap-8">
+                    <div class="lg:w-1/2">
+                        <div class="flex items-center mb-4">
+                            <span class="text-6xl font-bold step-number mr-4">05</span>
+                            <h3 class="text-2xl font-bold primary-blue">Delivery & On-Site Install</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>Your finished home is craned onto a trailer and delivered NZ-wide</li>
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>Once on-site, it's secured to pre-prepared piles or foundation</li>
+                            <li class="flex items-start"><i class="fas fa-check secondary-blue mt-1 mr-3"></i>Minor final touches, utility hook-ups, and you're good to go!</li>
+                        </ul>
+                    </div>
+                    <div class="lg:w-1/2">
+                        <div class="rounded-lg overflow-hidden shadow-custom">
+                            <img src="data:image/jpeg;base64,finished-home" class="w-full h-64 object-cover" alt="Delivery & Install">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12 p-8 bg-gray-50 rounded-lg">
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+                    <div class="flex items-center">
+                        <i class="fas fa-clock text-3xl secondary-blue mr-3"></i>
+                        <span class="text-xl font-semibold primary-blue">Total build timeline: 26–35 days</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-map-marker-alt text-3xl secondary-blue mr-3"></i>
+                        <span class="text-xl font-semibold primary-blue">Built in Cambridge. Delivered anywhere in NZ.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold primary-blue mb-4">What's Included + Pricing Example</h2>
+                <div class="text-6xl font-bold secondary-blue mb-4">$1,997/m²</div>
+                <p class="text-xl text-gray-600">Base Price - Fully built, closed-in modular unit, ready for transport</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                <!-- Inclusions -->
+                <div class="bg-white rounded-lg p-8 shadow-custom">
+                    <h3 class="text-2xl font-bold primary-blue mb-6">✅ INCLUSIONS</h3>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <h4 class="font-bold text-lg primary-blue mb-2">Structure & Build:</h4>
+                            <ul class="space-y-1 text-gray-700">
+                                <li>• SIP Panel Construction (pre-cut and insulated walls, roof, floor)</li>
+                                <li>• Factory-assembled floor and frame</li>
+                                <li>• Engineered structural support system</li>
+                                <li>• Wind-rated and consentable per NZBC</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="font-bold text-lg primary-blue mb-2">External:</h4>
+                            <ul class="space-y-1 text-gray-700">
+                                <li>• Colorsteel roofing</li>
+                                <li>• External cladding (weatherboard, steel, or other)</li>
+                                <li>• Double-glazed windows & exterior doors</li>
+                                <li>• Optional deck or covered entrance (extra)</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="font-bold text-lg primary-blue mb-2">Interior Fit-out:</h4>
+                            <ul class="space-y-1 text-gray-700">
+                                <li>• Full GIB lining, painted</li>
+                                <li>• Vinyl plank or carpet flooring</li>
+                                <li>• Kitchen cabinetry + benchtops</li>
+                                <li>• Bathroom fixtures (vanity, toilet, shower)</li>
+                                <li>• Pre-wiring and plumbing</li>
+                                <li>• Water heater (electric or gas)</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="font-bold text-lg primary-blue mb-2">Other:</h4>
+                            <ul class="space-y-1 text-gray-700">
+                                <li>• LED lighting</li>
+                                <li>• Ventilation (HRV or similar)</li>
+                                <li>• Smoke alarms & safety features</li>
+                                <li>• Transport within reasonable distance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Real Project Example -->
+                <div class="bg-primary-blue text-white rounded-lg p-8 shadow-custom">
+                    <h3 class="text-2xl font-bold mb-6">🔍 REAL PROJECT EXAMPLE</h3>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex justify-between border-b border-gray-300 pb-2">
+                            <span>🛏️ Project:</span>
+                            <span class="font-semibold">4-Bedroom, 2-Bathroom Family Home</span>
+                        </div>
+                        <div class="flex justify-between border-b border-gray-300 pb-2">
+                            <span>📐 Size:</span>
+                            <span class="font-semibold">120m²</span>
+                        </div>
+                        <div class="flex justify-between border-b border-gray-300 pb-2">
+                            <span>🕒 Build Time:</span>
+                            <span class="font-semibold">26 days (factory complete)</span>
+                        </div>
+                        <div class="flex justify-between border-b border-gray-300 pb-2">
+                            <span>🚚 Location Delivered:</span>
+                            <span class="font-semibold">Tauranga</span>
+                        </div>
+                    </div>
+
+                    <div class="space-y-3 mb-6">
+                        <div class="flex justify-between text-lg">
+                            <span>💰 Base Factory Build:</span>
+                            <span class="font-bold">$239,640</span>
+                        </div>
+                        <div class="text-sm opacity-90">$1,997/m² x 120m²</div>
+                        
+                        <div class="mt-4 space-y-2">
+                            <h4 class="font-bold">🧱 Add-ons:</h4>
+                            <div class="flex justify-between">
+                                <span>Foundation piles + on-site install:</span>
+                                <span>~$12,000</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Site connection (power, water, septic):</span>
+                                <span>~$9,000</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Council fees + consent:</span>
+                                <span>~$5,000</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Deck & landscaping:</span>
+                                <span>~$8,000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-t border-gray-300 pt-4">
+                        <div class="flex justify-between text-2xl font-bold">
+                            <span>📦 Total Project Cost:</span>
+                            <span>~$273,640</span>
+                        </div>
+                        <div class="text-center text-sm opacity-90 mt-2">(turnkey)</div>
+                    </div>
+
+                    <div class="mt-8 p-4 bg-white bg-opacity-20 rounded-lg">
+                        <h4 class="font-bold mb-2">👨‍👩‍👧 Client Story:</h4>
+                        <p class="italic">"From our first call to move-in day, SuperSub made the process stress-free. The house was finished before we expected, and the quality blew us away."</p>
+                        <p class="text-right mt-2 font-semibold">— Sarah T., Tauranga</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold primary-blue mb-4">Why SIPs + Modular Homes?</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-custom">
+                    <div class="w-16 h-16 bg-secondary-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-rocket text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold primary-blue mb-3">Faster Build Times</h3>
+                    <p class="text-gray-700">Builds completed in 26–35 days — up to 3x faster than standard construction. Say goodbye to weather delays.</p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-custom">
+                    <div class="w-16 h-16 bg-secondary-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-thermometer-half text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold primary-blue mb-3">Superior Energy Performance</h3>
+                    <p class="text-gray-700">SIPs offer R-values exceeding code minimums, keeping your home warmer in winter and cooler in summer. Lower power bills, year-round.</p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-custom">
+                    <div class="w-16 h-16 bg-secondary-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-leaf text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold primary-blue mb-3">Less Waste. Cleaner Process</h3>
+                    <p class="text-gray-700">Factory-controlled builds mean: No weather damage, No wet timber on site, No theft or site mess.</p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-custom">
+                    <div class="w-16 h-16 bg-secondary-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold primary-blue mb-3">Stronger Structure</h3>
+                    <p class="text-gray-700">SIP panels are up to 2x stronger than traditional framing, engineered to handle NZ's transport, winds, and seismic conditions.</p>
+                </div>
+
+                <!-- Benefit 5 -->
+                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-custom">
+                    <div class="w-16 h-16 bg-secondary-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-paint-brush text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold primary-blue mb-3">Custom Layouts & Aesthetics</h3>
+                    <p class="text-gray-700">From modern cladding to open-plan living, you're not locked into a boring box. Choose from templates or create your own.</p>
+                </div>
+
+                <!-- Benefit 6 -->
+                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-custom">
+                    <div class="w-16 h-16 bg-secondary-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-dollar-sign text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold primary-blue mb-3">Affordable & Predictable Costs</h3>
+                    <p class="text-gray-700">Pricing is upfront. Factory control means fewer unknowns and less budget blowout.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold primary-blue mb-4">FAQs + Next Steps</h2>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-custom">
+                            <h3 class="font-bold text-lg primary-blue mb-3">Q: Can I modify the layout or design?</h3>
+                            <p class="text-gray-700">Yes! You can customise everything from layout to kitchen cabinetry, cladding, bathroom fit-outs and floor materials.</p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow-custom">
+                            <h3 class="font-bold text-lg primary-blue mb-3">Q: Are SuperSub homes consentable?</h3>
+                            <p class="text-gray-700">Yes — our builds comply with NZ Building Code, and we help with council documentation and consent.</p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow-custom">
+                            <h3 class="font-bold text-lg primary-blue mb-3">Q: What about land, siteworks, and foundations?</h3>
+                            <p class="text-gray-700">We build the home. You (or your builder) prep the site (foundations, connections). We assist with guidance and quotes.</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-custom">
+                            <h3 class="font-bold text-lg primary-blue mb-3">Q: Where can you deliver to?</h3>
+                            <p class="text-gray-700">We deliver across New Zealand — North and South Island — depending on transport access and crane availability.</p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow-custom">
+                            <h3 class="font-bold text-lg primary-blue mb-3">Q: Can I visit your factory?</h3>
+                            <p class="text-gray-700">Yes — we welcome private tours by appointment at our Cambridge warehouse.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Next Steps -->
+                <div class="bg-primary-blue text-white rounded-lg p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-6">🔜 NEXT STEPS</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-bold mb-2">📞 Book a free consultation:</h4>
+                            <p class="mb-4">Let's talk about your dream home and budget.</p>
+                            <a href="tel:0800782631" class="bg-white text-blue-800 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition">
+                                Call 0800 782 631 (Reg)
+                            </a>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-2">📧 Email us:</h4>
+                            <p class="mb-4">office@supersub.co.nz</p>
+                            <h4 class="font-bold mb-2">🌐 Visit:</h4>
+                            <p>www.supersub.co.nz</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Gallery -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold primary-blue mb-4">Project Gallery</h2>
+                <p class="text-xl text-gray-600">See our homes from warehouse to finished product</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="rounded-lg overflow-hidden shadow-custom">
+                    <img src="data:image/jpeg;base64,warehouse-stage" class="w-full h-64 object-cover" alt="Warehouse Construction Stage">
+                    <div class="p-4 bg-gray-50">
+                        <h3 class="font-semibold primary-blue">Warehouse Stage</h3>
+                        <p class="text-sm text-gray-600">Protected indoor construction</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg overflow-hidden shadow-custom">
+                    <img src="data:image/jpeg;base64,sip-assembly" class="w-full h-64 object-cover" alt="SIP Wall Assembly">
+                    <div class="p-4 bg-gray-50">
+                        <h3 class="font-semibold primary-blue">SIP Wall Assembly</h3>
+                        <p class="text-sm text-gray-600">Precision-cut panels</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg overflow-hidden shadow-custom">
+                    <img src="data:image/jpeg;base64,transport-delivery" class="w-full h-64 object-cover" alt="Transport & Delivery">
+                    <div class="p-4 bg-gray-50">
+                        <h3 class="font-semibold primary-blue">Transport & Delivery</h3>
+                        <p class="text-sm text-gray-600">NZ-wide delivery</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg overflow-hidden shadow-custom">
+                    <img src="data:image/jpeg;base64,finished-interior" class="w-full h-64 object-cover" alt="Finished Interior">
+                    <div class="p-4 bg-gray-50">
+                        <h3 class="font-semibold primary-blue">Finished Interior</h3>
+                        <p class="text-sm text-gray-600">Move-in ready</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Build Your Dream Home?</h2>
+            <p class="text-xl mb-8">Contact SuperSub today for a free consultation and quote</p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="tel:0800782631" class="bg-white text-blue-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition flex items-center">
+                    <i class="fas fa-phone mr-2"></i>0800 782 631
+                </a>
+                <a href="mailto:office@supersub.co.nz" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-800 transition flex items-center">
+                    <i class="fas fa-envelope mr-2"></i>office@supersub.co.nz
+                </a>
+            </div>
+            <div class="mt-6">
+                <p class="text-lg font-semibold">www.supersub.co.nz</p>
+                <p class="text-sm opacity-90 mt-2">10,000m² warehouse facility in Cambridge, NZ</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
